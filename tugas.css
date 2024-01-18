@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url(ww.jpg);
+    background-size: cover
+}
+
+.countainer{
+    width: 100%;
+    
+}
+.navbar{
+    padding: 10px 0px 10px 0px;
+    background-color: #777;
+    border-bottom: 1px solid red ;
+    width: 85%;
+    margin: auto;
+    
+}
+.navbar ul{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: 800;
+}
+.navbar a:hover{
+    background-color: red;
+}
+/* conten */
+.konten{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    height: 600px;
+    background-image: url(ayam.jpg);
+    background-size: cover;
+    justify-content: space-between;
+}
+.kiri{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.kiri h2{
+    color: red;
+}
+.kiri h2{
+    margin-bottom: 20px;
+}
+.kanan{
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+.gambar{
+    width: 21.8%;
+    height: 500px;
+    margin: 30px 5px 5px 5px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+img{
+    width: 260px;
+    height: 260px;
+    border-radius: 5px;
+}
+.judul{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.gambar img{
+    float: left;
+    margin: 5px 5px 5px 5px;
+    transition: .5s;
+}
+.gambar p{
+    text-align: left;
+    margin-left: 7px;
+}
+.menu{
+    margin-left: 100px;
+    margin-top: 30px;
+  
+ 
+}
+.menu h1{
+    margin-right: 80px;
+}
+.menu img:hover{
+    transform: scale(1.2);
+}
