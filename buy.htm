@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Form Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+       <table>
+        <tr>
+            <td>Pilih Menu</td>
+            <td>:</td>
+            <td><input type="checkbox" name="ayam">Ayam Goreng
+                <input type="checkbox" name="ayam">Ayam Goreng
+                <input type="checkbox" name="ayam">Ayam Goreng
+                <input type="checkbox" name="ayam">Ayam Goreng</td>
+        </tr>
+        <tr>
+            <td>Metode Pembayaran</td>
+            <td>:</td>
+            <td><select name="metode" id="">
+                <option value="bayar">COD</option>
+                <option value="bayar">Saldo</option>
+                <option value="bayar">Cash</option>
+                <option value="bayar">Pulsa</option>
+            
+            </select></td>
+        </tr>
+       </table>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
