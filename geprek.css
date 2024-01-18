@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+}
+.pesan{
+    border-bottom: 1px solid red;
+}
+.isi img{
+    float: left;
+}
+.isi{
+    display: flex;
+}
