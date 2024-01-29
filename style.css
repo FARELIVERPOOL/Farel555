@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.judul{
+    width: 95%;
+    margin: auto;
+}
+.awal{
+    background-color: rgb(0, 0, 0);
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 10px 0 0 10px ;
+}
+.awal h2{
+    padding-bottom: 10px;
+}
+.isi{
+    display: flex;
+    width: 100%;
+    background-color: cornsilk;
+}
+.isi img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+}
+.kiri{
+    margin-left: 20px;
+}
+.kanan{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: ivory;
+}
+.kanan h2{
+    margin: 20px 0px 15px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.kanan p{
+    margin: 0px 0px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-right: 20px;
+}
+.lanjut{
+    width: 300px;
+    height: 200px;
+    margin: 50px 0px 0px 20px;
+    border: 1px solid black;
+    background-color: ivory;
+}
+.lanjut ul{
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+.lanjut h4 {
+    padding-top: 15px;
+    margin-left:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.konten{
+    width: 100%;
+    height: 600px;
+    background-color: ghostwhite;
+    display: flex;
+}
+.tanda{
+width: 400px;
+height: 400px;
+border: 1px solid black;
+margin-top: 50px;
+margin-left: 100px;
+}
+.tanda ul{
+    margin-left: 30px;
+}
+.tanda h4{
+    margin-left: 10px;
+    padding: 20px;
+}
+.cara{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.cara h4{ 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cara p{
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    margin-left: 10px;
+}
